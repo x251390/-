@@ -1,0 +1,82 @@
+.logo{
+	margin: 0!important;
+     border:0!important;     
+     
+     
+     }
+.logo li{
+	border: 0!important;
+}
+.footer .kai {
+    font-size: 32px;
+    padding: 25px 50px;
+    padding-right: 75px;
+    border: 3px solid #dbd9d9;
+   position: relative;
+    background-size: 25px 15px;
+    margin-bottom: 95px!important;
+    background: #fff;
+    color:#555454;
+   
+}
+#menu3{
+	text-align: left;
+}
+.footer .kai img{
+	position: absolute;
+	
+	left: 250px;
+	top:32px;
+}
+#myModalLabel{
+	font-size: 28px!important;
+	
+}
+#myModal{
+	font-size: 12px;
+}
+.qing{
+	font-size: 14px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.dian{
+	padding: 15px 10px;
+	
+	margin: 10px;
+}
+.dian1{
+	width:35%;
+}
+.xiang{
+
+	margin-top: 25px;
+}
+.huo{
+	text-align: left;
+	font-weight: bold;
+	margin-left: 45px;
+	margin-top: 8px;
+}
+.cheng{
+	text-align: left;
+	margin-left: 45px;
+	border: 1px solid #dcdcdc;
+	padding: 15px;
+	line-height: 25px;
+	width: 85%;
+	margin-top: 10px;
+}
+.wo{
+	text-align: left;
+	margin-left: 45px;
+	margin-top: 15px;
+}
+.wo1{
+	margin-left: 15px;
+}
+.wo2{
+	font-size: 14px;
+	margin-left: 31px;
+}
+

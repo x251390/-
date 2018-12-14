@@ -1,0 +1,611 @@
+/*通用*/
+
+*{ padding: 0;
+margin: 0;
+}
+
+div{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+}
+.body{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+/*顶部*/
+
+.nav{
+	width: 100%;
+	height: 120px;
+	background: black;
+	
+}
+.nav-list{
+	position: relative;
+	z-index: 100;
+	/*display: flex;
+	align-items: center;*/
+	width: 72.517078%;
+	height: 120px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: #000;
+}
+.nav-list input{
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	left: 100%;
+	width: 260px;
+	height: 40px;
+	background:#e1e1e1;
+	border-radius: 50px;
+	padding: 0 20px 0 20px;
+	border: none;
+	outline: none;
+	transform: translateX(0px);
+	opacity: 0;
+	transition: all 0.5s;
+	color: #8b8b8b;
+	font-size: 14px;
+}
+#more{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -20px;
+/*	margin-top: 40px\0;*/
+	width: 30px;
+	height: 35px;
+}
+#logo{
+	display: block;
+	margin: 0 auto;
+	width: 120px;
+	height: 120px;
+}
+#logo .logo{
+	width: auto;
+	height: 120px;
+}
+.nav-list #searchicon{
+	position: absolute;
+	top: 50%;
+	margin-top: -15px !important;
+	left: 97.6%;
+	z-index: 10;
+	margin-top: 5px\0;
+	width: 30px;
+	height: 30px;
+}
+/*隐藏导航栏*/
+.hid-header{
+	position:absolute;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 0%;
+	background: #000;
+	display: block;
+	transition: all 1.5s;
+	opacity: 0.8;
+	
+}
+.hid-header .hid-list{
+	position: absolute;
+	padding: 0;
+	margin-top: -125px;
+	margin-left: -48px;
+	top: 40%;
+	left: 50%;
+}
+.hid-header .hid-list .huaiyuan{
+	list-style: none;
+}
+.hid-header .hid-list .huaiyuan .A{
+	text-decoration: none;
+	color: #fff;
+	font-size: 24px;
+}
+.hid-header .hid-list .huaiyuan ul{
+	padding: 0;
+	list-style: none;
+}
+.huaiyuan ul li{
+	margin: 10px;
+}
+.huaiyuan div.div{
+	width: 100%;
+	height: 0;
+	padding: 10px 10px 10px 0;
+	overflow: hidden;
+	transition: all 1s;
+}
+.huaiyuan ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*中部*/
+/*三绝*/
+.sanjue{
+	width: 100%;
+	height: 100%;
+	background: url(../img/怀远美食.jpg);
+}
+.middle{
+	width: 1400px;
+	height: 100%;
+	margin: 0 auto;
+}
+.over-text{
+	width: 38.57%;
+	height: 768px;
+	padding: 276px 0 0 0; 
+	font-weight: bold;
+	float: left;
+	line-height: 40px;
+	box-sizing: border-box;
+	
+}
+.over-text h1{
+	font-size: 30px;
+	font-weight: bolder;
+	font-family: "微软雅黑";
+    text-align: center;
+    color: white;
+}
+.over-text h2{
+	font-family: "华文行楷";
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+.over-text p{
+	margin: 0;
+	text-indent: 2em;
+	font-family: "微软雅黑";
+	font-size: 16px;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+    color: white;
+}
+/*右部轮播图*/
+.Sowing-map{
+	position: relative;
+	width: 60%;
+	height: 100%;
+	padding: 20px;
+	float: right;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.Sowing-map a{
+	position: absolute;
+	display: block;
+	width: 400px;
+	height: 400px;
+	top: 50%;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: -200px;
+	cursor: pointer;
+	z-index: 50;
+}
+.Sowing-map img{
+	position:absolute;
+	left: 50%;
+	top: 50%;
+	display: block;
+	width: 400px;
+	height: 400px;
+	margin: -200px 0 0 -200px;
+	transition: all 0.5s;
+
+}
+.Sowing-map img#img1{
+	transform: translateX(-200px) scale(0.7,0.7);
+	background: blue;
+	z-index: 1;
+}
+.Sowing-map img#img2{
+	background: red;
+	z-index: 3;
+}
+.Sowing-map img#img3{
+	transform: translateX(200px) scale(0.7,0.7);
+	background: blue;
+	z-index: 1;
+}
+.Sowing-map img#img4{
+	transform: translateX(0px) scale(0.7,0.7);
+	background: blue;
+}
+.Sowing-map img#img5{
+	transform: translateX(0px) scale(0.7,0.7);
+	background: blue;
+}
+
+
+
+
+
+/*三编*/
+.sanbian{
+	/*display: flex;
+	align-items: center;
+	justify-content: center;*/
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: #eee;
+	overflow: hidden;
+}
+.three-compacts{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -307px !important;
+	margin-left: -700px;
+	width: 1400px;
+	height: 614px;
+	background: url(../img/huaiyuansanbian.jpg.png) no-repeat;
+	background-size: 100% 100%;
+	overflow: hidden;
+}
+.three-compacts .three-bg{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: red;
+}
+
+.three-compacts .three-text{
+	width: 100%;
+	height: 150px;
+	line-height: 30px;
+	text-align: center;
+	font-family: 微软雅黑;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+	}
+.three-compacts .three-text h2{
+	font-weight: bolder;
+	
+}
+.three-compacts .three-text p{
+	font-family: "华文行楷";
+	font-size: 30px;
+	
+}
+.three-compacts .fengexian{
+	display: block;
+	width: 100%;
+	height: 30px;
+}
+.three-compacts  .three-img{
+	width: 100%;
+	height: 438px;
+	margin-top: 20px;
+}
+.three-compacts  .three-img .three-right{
+	width: 370px;
+	height: 350px;
+	margin-right: 10px;
+	float: left;
+}
+.three-compacts  .three-img .three-right .threeimg{
+	display: block;
+	width: 100%;
+	height: 170px;
+	transition: transform 0.35s;
+}
+.three-compacts  .three-img .three-right .threeimg:hover{
+	transform: scale(1.1,1.1);
+	box-shadow: 5px 5px 10px #eee;
+}
+.three-right .lefttopimg{
+	background: url(../img/手礼配图（知心.礼）.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.three-right .leftbottomimg{
+	margin-top:10px;
+	background: url(../img/huaiyuanyeerba02.jpg) no-repeat;
+	background-size: 100% 105%;
+}
+.three-img .centerimg{
+	display: block;
+	width: 297px;
+	height: 350px;
+	margin-right: 10px;
+	background: url;
+	float: left;
+	background: url(../img/huaiyuanyeerba01.jpg) no-repeat;
+	background-size: 100% 100%;
+	transition: transform 0.35s;
+}
+.three-img .centerimg:hover{
+	transform: scale(1.1,1.1);
+	box-shadow: 5px 5px 10px #eee;
+}
+.three-img .rightimg{
+	display: block;
+	width: 713px;
+	height: 350px;
+	background: url(../img/huaiyuandonggao03.jpg) no-repeat;
+	background-size: 100% 100%;
+	float: left;
+	transition: transform 0.35s;
+}
+.three-img .rightimg:hover{
+	transform: scale(1.1,1.1);
+	box-shadow: -5px -5px 10px #eee;
+}
+/*酒店*/
+.Hotel{
+	position: relative;
+	width: 100%;
+	height: 67%;
+	background: url(../img/怀远酒店.jpg) no-repeat;
+	background-size: 100% 100%;
+	overflow: hidden;
+}
+.Hotel .HotelList{
+	position: relative;
+	width: 1400px;
+	height: 100%;
+	margin: 0 auto;
+}
+.Hotel .HotelList h1{
+	position:absolute;
+	top: 10%;
+	left: 30%;
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+}
+.Hotel .HotelList .Hoteltext{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	width: 300px;
+	height: 100%;
+}
+.Hotel .HotelList .Hoteltext p{
+	width: 20px;
+	margin-right: 50px;
+	float: right;
+}
+.Hotel .listmiddle{
+	position: absolute;
+	top: 500px;
+	left: 50%;
+	margin-left: -700px;
+	width: 73.56805%;
+	width: 1400px;
+	height: auto;
+}
+
+.Hotel .droplist{
+	position: relative;
+	width: 25%;
+	height: 70px;
+	float: left;
+	padding: 20px;
+	margin-right: 40px;
+	background: rgba(0,0,0,0.5);
+	box-sizing:border-box;
+}
+.Hotel .listmiddle .img1{
+	display: inline-block;
+	position: absolute;
+	top: 36%;
+	width: 25px;
+	height: 25px;
+	float: left;
+}
+.droplist .drop-form{
+	width: 100%;
+	padding-left: 26px;
+	display: inline-block;
+}
+.drop-form .form-control{
+	border: none;
+	background: rgba(0,0,0,0);
+	color: #fff;
+	display: flex;
+}
+.drop-form .form-control:focus{
+	border: none !important;
+	outline: none !important;
+}
+.reserve{
+	width: 200px;
+	height: 70px;
+	background: cornflowerblue;
+	float: left;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 70px;
+	font-size: 18px;
+	font-weight: bolder;
+}
+.reserve a{
+	text-decoration: none;
+	color: #fff;
+}
+.reserve a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*底部*/
+.footer122{
+	width: 100%;
+	height: 340px;
+	background: #191919;
+}
+.footer122 .footer122-container{
+	width: 52.65929437%;
+	padding-top: 20px;
+	height: 320px;
+	margin: 0 auto;
+}
+.footer122 .footer122-container .f-c-top{
+	width: 50%;
+	height: 170px;
+	margin: 0 auto;
+}
+..footer122 .footer122-container .f-c-bottom{
+	width: 100%;
+}
+.f-c-top .top-left,.top-right{
+	width: 49.875%;
+	height: 170px;
+	float: left;
+}
+.top-right{
+	width: 49%;
+}
+/*底部页眉左*/
+.f-c-top .top-left{
+	padding-top: 50px;
+	height: 100px;
+}
+.top-left .left{
+	width: 50%;
+	height: 35px;
+	float: left;
+	font-size: 14px;
+	text-align: center;
+	line-height: 35px;
+}
+.top-left .left a{
+	text-decoration: none;
+	color: #fff;
+}
+.vertical-line{
+	width: 2px;
+	height: 50px;
+	background: #fff;
+	margin-top: 60px;
+	float: left;
+}
+/*底部页眉右*/
+.top-right{
+	position: relative;
+}
+.top-right .right{
+	width: 33.33%;
+	height: 170px;
+	float: left;
+	
+	
+}
+.top-right .qr{
+	position: absolute;
+	top: -50px;
+	width: 100px;
+	height: 100px;
+	display: none;
+	
+}
+.top-right .wechatqr{
+	left:-10px;
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+.top-right .macroqr{
+	left: 68px;
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+.top-right .mapqr{
+	left: 154px;
+	opacity: 0;
+	transition: opacity 0.5s;
+	
+}
+.top-right .wechat{
+	background: url(../img/微信.png) no-repeat;
+	background-size: 50%;
+	background-position: 50% 50%;
+	
+}
+
+.top-right .mcro-blog{
+	background: url(../img/微博.png) no-repeat;
+	background-size: 50%;
+	background-position: 50% 50%;
+	
+}
+.top-right .map{
+	background: url(../img/百度地图旗标点击事件.png) no-repeat;
+	background-size: 50%;
+	background-position: 50% 50%;
+	
+}
+
+
+/*底部页脚*/
+.f-c-bottom{
+	text-align: center;
+	line-height: 40px;
+}
+.f-c-bottom .bottom-top,.bottom-foot{
+	width: 100%;
+	height: 85px;
+	background: yellow;
+}
+.bottom-foot{
+	background: purple;
+}
+.f-c-bottom span{
+	font-size: 12px;
+	color: #ccc;
+}
+.verline{
+	padding: 5px;
+	font-weight: lighter;
+}
